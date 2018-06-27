@@ -12,4 +12,8 @@ public class TestTester {
     public void test1() {
         assertEquals("Should return true", true, (new Testit().check()));
     }
+    @Test
+    public void test2() {
+    	assertEquals("Should fail", false, (new Testit().check()));
+    }
 }
